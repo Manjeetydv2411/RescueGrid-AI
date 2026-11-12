@@ -1,0 +1,80 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.cjs
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test outputs and coverage
+coverage/
+.nyc_output/
+.vitest/
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
+
+# Caches
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+.eslintcache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# Runtime files
+*.pid
+*.pid.lock
+
+# Python virtual environments
+backend/ai-service/venv/
+backend/ai-service/.venv/
+**/__pycache__/
+*.py[cod]
+
+# Runtime incident uploads
+backend/uploads/
